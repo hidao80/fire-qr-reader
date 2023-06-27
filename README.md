@@ -13,6 +13,16 @@ If it reads the mailto schema, it will ask if you want to run a mailer, if it re
 
 If you choose "OK" in the confirmation dialog, it will run.
 
+## Languages Supported
+- English
+- Japanese
+- Spanish
+- Russian
+- French
+- German
+- Chinese
+- korean
+
 ## LICENSE
 
 Apache-2.0 license
