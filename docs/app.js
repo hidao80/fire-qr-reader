@@ -57,7 +57,7 @@ window.addEventListener("load", function () {
      */
     function tick() {
         // 
-        loadingMessage.innerText = "⌛ Loading video..."
+        loadingMessage.innerText = i18n.translate("LoadingVideo");
         if (video.readyState === video.HAVE_ENOUGH_DATA) {
             loadingMessage.hidden = true;
             canvasElement.hidden = false;
