@@ -84,19 +84,19 @@ window.addEventListener("load", function () {
                 const colon = code.data.indexOf(":") + 1;
                 if (/^https?:\/\/[\w/:%#\$&\?\(\)~\.=\+\-]+$/.test(code.data)) {
                     // If the content is a URL, display a link to it.
-                    confirm("Open this link?\n\n" + code.data) && linkClick(code.data);
+                    confirm(i18n.translate("OpenThisLink?") + "\n\n" + code.data) && linkClick(code.data);
                 } else if (/^tel:\d{6,11}$/.test(code.data)) {
                     // If the content is a phone number, dial a number to it.
-                    confirm("Call this number?\n\n" + code.data.slice(colon)) && linkClick(code.data);
+                    confirm(i18n.translate("CallThisNumber?") + "\n\n" + code.data.slice(colon)) && linkClick(code.data);
                 } else if (/^mailto:[\w\.-]+?@[\w\.-]+$/.test(code.data)) {
                     // If the content is a deep link, launch the application.
-                    confirm("Send mail?\n\n" + code.data.slice(colon)) && linkClick(code.data);
+                    confirm(i18n.translate("SendMail?") + "\n\n" + code.data.slice(colon)) && linkClick(code.data);
                 } else if (/^javascript:.+$/.test(code.data)) {
                     // If the content is a javascript, run the script.
-                    confirm("Open this apps?\n\n" + code.data.slice(0, colon - 1)) && linkClick(code.data);
+                    confirm(i18n.translate("RunThisBookmarklet?") + "\n\n" + code.data.slice(0, colon - 1)) && linkClick(code.data);
                 } else if (/^\w+:[\w\.-@/#%]+$/.test(code.data)) {
                     // If the content is a deep link, launch the application.
-                    confirm("Open this apps?\n\n" + code.data.slice(0, colon - 1)) && linkClick(code.data);
+                    confirm(i18n.translate("OpenThisApps?") + "\n\n" + code.data.slice(0, colon - 1)) && linkClick(code.data);
                 }
             }
         }
