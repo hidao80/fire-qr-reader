@@ -4,7 +4,7 @@ QR codes can even be read by tablets with only a browser installed.
 ## Startup method
 Access the following URL The shortened URL will also go to the same URL.
 
-URI: <https://hidao80.github.io/fire-qr-reader>
+URI: <https://hidao80.github.io/fire-qr-reader>  
 short URL: <https://is.gd/w1Xy0Q>
 
 ## Usage
