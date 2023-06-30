@@ -20,7 +20,7 @@ short URL: <https://is.gd/w1Xy0Q>
 - French
 - German
 - Chinese
-- korean
+- Korean
 
 ## LICENSE
 
