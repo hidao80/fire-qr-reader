@@ -1,5 +1,7 @@
 # fire-qr-reader
 
+[![PWA](https://img.shields.io/badge/PWA-Yes-4BC51D.svg)](https://hidao80.github.io/fire-qr-reader)
+
 QR codes can even be read by tablets with only a browser installed.
 
 ## Usage
