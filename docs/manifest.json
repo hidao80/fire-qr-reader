@@ -1,0 +1,16 @@
+{
+  "short_name": "QR Reader",
+  "name": "Fire QR Reader",
+  "background_color": "#fff",
+  "theme_color": "#87ceeb",
+  "display": "standalone",
+  "scope": "/fire-qr-reader",
+  "id": "3f2fd029-6b72-4db6-8183-09084784fc2a",
+  "icons": [
+      {
+          "src": "img/favicon.png",
+          "type": "image/png",
+          "sizes": "256x256"
+      }
+  ]
+}
