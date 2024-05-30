@@ -106,7 +106,7 @@ window.addEventListener("load", function () {
 
         // Register the service worker.
         if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("./sw.js");
+            navigator.serviceWorker.register("/fire-qr-reader/sw.js");
         }    
     }
 });
