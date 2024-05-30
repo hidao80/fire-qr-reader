@@ -103,5 +103,10 @@ window.addEventListener("load", function () {
 
         // Repeat the process.
         requestAnimationFrame(tick);
+
+        // Register the service worker.
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./sw.js");
+        }    
     }
 });

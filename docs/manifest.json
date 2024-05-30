@@ -1,16 +1,27 @@
 {
   "short_name": "QR Reader",
   "name": "Fire QR Reader",
+  "description": "QR codes can even be read by tablets with only a browser installed.",
   "background_color": "#fff",
-  "theme_color": "#87ceeb",
+  "theme_color": "#fff",
   "display": "standalone",
   "scope": "/fire-qr-reader",
-  "id": "3f2fd029-6b72-4db6-8183-09084784fc2a",
+  "id": "b6f3a05d-3821-4dec-b865-7d387a6e54bd",
   "icons": [
-      {
-          "src": "img/favicon.png",
-          "type": "image/png",
-          "sizes": "256x256"
-      }
+    {
+      "src": "img/favicon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "img/favicon.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ]
 }

@@ -1,8 +1,11 @@
 # fire-qr-reader
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache--2.0-yellow.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![PWA](https://img.shields.io/badge/PWA-Yes-4BC51D.svg)](https://hidao80.github.io/fire-qr-reader)
 
-QR codes can even be read by tablets with only a browser installed.
+QR codes can be read even on tablets with only a browser installed.
+
+![NEW](https://img.shields.io/badge/NEW!-red.svg) Now available for installation as a PWA.
 
 ## Usage
 
