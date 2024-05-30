@@ -5,13 +5,13 @@
   "background_color": "#fff",
   "theme_color": "#fff",
   "display": "standalone",
-  "scope": "/fire-qr-reader/",
+  "start_url": "/fire-qr-reader/",
   "id": "b6f3a05d-3821-4dec-b865-7d387a6e54bd",
   "icons": [
     {
-      "src": "img/favicon.png",
-      "type": "image/png",
-      "sizes": "100x100"
+      "src": "img/favicon.webp",
+      "type": "image/webp",
+      "sizes": "144x144"
     }
   ]
 }
