@@ -1,7 +1,8 @@
 # fire-qr-reader
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache--2.0-yellow.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![PWA](https://img.shields.io/badge/PWA-Yes-4BC51D.svg)](https://hidao80.github.io/fire-qr-reader)
+![PWA](https://img.shields.io/badge/PWA-ready-4BC51D.svg)
+![Dark theme ready](https://img.shields.io/badge/Dark_theme-ready-blue.svg)
 
 QR codes can be read even on tablets with only a browser installed.
 
